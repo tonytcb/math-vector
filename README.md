@@ -5,6 +5,8 @@ This package is a mathematical vector representation written in Go, with some ba
 This package exports some basic operations as well:
 - Dot Product
 - Cross Product
+- Addition
+- Subtraction
 
 ## How to use
 
