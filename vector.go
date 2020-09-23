@@ -52,3 +52,21 @@ func (v Vector) CrossProduct(v2 Vector) Vector {
 
 	return New(i, j, k)
 }
+
+// Add reproduces the addition operation
+func (v Vector) Add(v2 Vector) Vector {
+	i := v.i + v2.i
+	j := v.j + v2.j
+	k := v.k + v2.k
+
+	return New(i, j, k)
+}
+
+// Sub reproduces the subtraction operation
+func (v Vector) Sub(v2 Vector) Vector {
+	i := v.i - v2.i
+	j := v.j - v2.j
+	k := v.k - v2.k
+
+	return New(i, j, k)
+}

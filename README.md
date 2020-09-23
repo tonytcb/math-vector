@@ -31,8 +31,9 @@ func main() {
 ```
 
 ## Todo
-- Add addition operation
-- Add subtraction operation 
+- ~~Add addition operation~~
+- ~~Add subtraction operation~~
+- Add more operations 
 
 ## References
 - https://www.mathsisfun.com/algebra/vectors.html
